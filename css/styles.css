@@ -1,0 +1,286 @@
+#Front {
+    color: #fff;
+    background-image: url("../images/other-front.jpeg");
+    background-size: cover;
+}
+
+.stroker {
+    width: 10rem;
+    position: relative;
+    top: -1.5rem;
+    transform: rotate(-10deg);
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    padding-bottom: 18rem;
+}
+
+.typewriter {
+    font-size: 4rem;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    letter-spacing: 0;
+    animation:
+        typing 4.5s steps(20, end);
+    margin-top: 13rem;
+    margin-left: 0px;
+    text-shadow: 0 0 3px #1f09c1, 0 0 5px #189913;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+        border-right: .1em solid orange;
+    }
+
+    to {
+        width: 100%;
+        border-color: transparent;
+    }
+}
+
+.navbar-brand {
+    /* font-family: "Ubuntu"; */
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 0%;
+    margin-left: 0;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+    padding-left: 0%;
+    position: absolute;
+    display: block;
+    right: 5%;
+}
+
+.nav-item {
+    padding: 0 1.2rem 0;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+}
+
+nav .navbar-nav li a:hover {
+    color: chocolate !important;
+}
+
+/* Features */
+
+#Features {
+    padding: 5rem;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+}
+
+.feature-icon {
+    color:#4F98CA;
+    padding-bottom: 1rem;
+}
+.feature-icon:hover {
+    color: chocolate;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Services tab */
+.skill-row{
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 5rem;
+}
+
+.skillpic:hover {
+    transform: scale(2);
+    transition-duration: 350ms;
+}
+
+#Services {
+    padding: 3rem 2rem 0rem;
+    text-align: center;
+    background-image: url("../images/services-blur.jpg");
+    background-size: contain;
+    color: white;
+}
+#Services h2{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+#veniPic{
+    max-width: 15%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+#pindPic{
+    max-width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+#kumbhDaanPic{
+    max-width: 20%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+#kumbhMelaPic{
+    max-width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+#gangaAartiPic{
+    max-width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+#pushpanjaliPic{
+    max-width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+#teerthGuidePic{
+    max-width: 22%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+#kalpvaasPic{
+    max-width: 30%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+#transportPic{
+    max-width: 22%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+.last-service-row {
+    padding-bottom: 2rem;
+}
+
+/* Testimonials Section */
+
+#Testimonials {
+    text-align: center;
+    background-color: rgb(46, 46, 49);
+}
+
+.carousel-item {
+    padding: 7% 15%;
+    color: whitesmoke;
+}
+
+.testimonial-image {
+    margin: 2rem 3.5rem 2rem;
+    width: 18%;
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    font-weight: 600;
+}
+
+
+/* Owner's Section */
+
+#Owner {
+    padding: 7% 15% 3%;
+    text-align: center;
+    background-image: url("../images/contact-bg.jpeg");
+    background-size:contain;
+    color: white;
+}
+
+#Owner .row  {
+    padding: auto 15rem;
+}
+
+.owner-pic img {
+    width: 100%;
+}
+
+.owner-details h4 {
+    color: wheat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.owner-details p {
+    padding-top: 8rem;
+    text-align: right;
+}
+
+/* Contact Section  */
+.contacts {
+    text-align: left;
+}
+
+.col-md-6 h6 {
+    padding-left: 5rem;
+}
+
+h6 a {
+    color: white;
+}
+
+h6 a:hover {
+    color: wheat;
+    text-decoration: none;
+}
+
+/* Footer Section */
+
+.end p {
+    background-color: white;
+    font-family: "Montserrat";
+    color: darkslategray;
+    text-align: center;
+    padding: 1.5%;
+    padding-bottom: 1%;
+}
+
+
