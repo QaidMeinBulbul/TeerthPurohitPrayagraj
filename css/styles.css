@@ -86,6 +86,7 @@ nav .navbar-nav li a:hover {
     color: chocolate !important;
 }
 
+
 /* Features */
 
 #Features {
@@ -96,9 +97,10 @@ nav .navbar-nav li a:hover {
 }
 
 .feature-icon {
-    color:#4F98CA;
+    color: #4F98CA;
     padding-bottom: 1rem;
 }
+
 .feature-icon:hover {
     color: chocolate;
 }
@@ -110,7 +112,8 @@ h3 {
 }
 
 /* Services tab */
-.skill-row{
+
+.skill-row {
     width: 70%;
     margin: auto;
     text-align: left;
@@ -129,69 +132,70 @@ h3 {
     background-size: contain;
     color: white;
 }
-#Services h2{
+
+#Services h2 {
     color: white;
     font-weight: 600;
     margin-bottom: 3rem;
 }
 
-#veniPic{
+#veniPic {
     max-width: 15%;
     border-radius: 100%;
     float: left;
     margin-right: 30px;
 }
 
-#pindPic{
+#pindPic {
     max-width: 25%;
     border-radius: 100%;
     float: right;
     margin-left: 30px;
 }
 
-#kumbhDaanPic{
+#kumbhDaanPic {
     max-width: 20%;
     float: left;
     margin-right: 30px;
     border-radius: 100%;
 }
 
-#kumbhMelaPic{
+#kumbhMelaPic {
     max-width: 25%;
     border-radius: 100%;
     float: right;
     margin-left: 30px;
 }
 
-#gangaAartiPic{
+#gangaAartiPic {
     max-width: 25%;
     float: left;
     margin-right: 30px;
     border-radius: 100%;
 }
 
-#pushpanjaliPic{
+#pushpanjaliPic {
     max-width: 25%;
     border-radius: 100%;
     float: right;
     margin-left: 30px;
 }
 
-#teerthGuidePic{
+#teerthGuidePic {
     max-width: 22%;
     float: left;
     margin-right: 30px;
     border-radius: 100%;
 }
 
-#kalpvaasPic{
+#kalpvaasPic {
     max-width: 30%;
     border-radius: 100%;
     float: right;
     margin-left: 30px;
 }
 
-#transportPic{
+#transportPic {
     max-width: 22%;
     float: left;
     margin-right: 30px;
@@ -201,6 +205,7 @@ h3 {
 .last-service-row {
     padding-bottom: 2rem;
 }
+
 
 /* Testimonials Section */
 
@@ -231,11 +236,11 @@ h3 {
     padding: 7% 15% 3%;
     text-align: center;
     background-image: url("../images/contact-bg.jpeg");
-    background-size:contain;
+    background-size: contain;
     color: white;
 }
 
-#Owner .row  {
+#Owner .row {
     padding: auto 15rem;
 }
 
@@ -245,7 +250,7 @@ h3 {
 
 .owner-details h4 {
     color: wheat;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
 }
 
@@ -259,7 +264,7 @@ h3 {
     text-align: left;
 }
 
-.col-md-6 h6 {
+.col h6 {
     padding-left: 5rem;
 }
 
@@ -270,6 +275,26 @@ h6 a {
 h6 a:hover {
     color: wheat;
     text-decoration: none;
+}
+
+.googlePic {
+    content: url("https://img.icons8.com/fluency/48/000000/google-logo.png");
+}
+
+#whatsapp {
+    content: url("https://img.icons8.com/color/35/000000/whatsapp--v1.png");
+}
+
+#instagram {
+    content: url("https://img.icons8.com/fluency/35/000000/instagram-new.png");
+}
+
+#mail {
+    content: url("https://img.icons8.com/color/30/000000/gmail--v1.png");
+}
+
+#maps {
+    content: url("https://img.icons8.com/color/35/000000/google-maps-new.png");
 }
 
 /* Footer Section */
@@ -284,3 +309,162 @@ h6 a:hover {
 }
 
 
+@media (max-width: 800px) {
+    .stroker {
+        width: 7rem;
+    }
+
+    #Front {
+        font-size: medium;
+        background-image: url("../images/mobile-front.jpg");
+        background-size: auto;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    div.container-fluid {
+        text-align: center;
+    }
+
+    .typewriter {
+        font-size: 2.5rem;
+        overflow: hidden;
+        display: inline-block;
+        /* white-space: nowrap; */
+        letter-spacing: 0;
+        animation:
+            typing 4.5s steps(20, end);
+        margin-top: 13rem;
+        margin-left: 0px;
+        text-shadow: 0 0 3px #1f09c1, 0 0 5px #189913;
+    }
+
+    #veniPic {
+        max-width: 25%;
+        border-radius: 100%;
+        float: left;
+        margin-right: 30px;
+    }
+
+    #pindPic {
+        max-width: 35%;
+        border-radius: 100%;
+        float: right;
+        margin-left: 30px;
+    }
+
+    #kumbhDaanPic {
+        max-width: 30%;
+        float: left;
+        margin-right: 30px;
+        border-radius: 100%;
+    }
+
+    #kumbhMelaPic {
+        max-width: 35%;
+        border-radius: 100%;
+        float: right;
+        margin-left: 30px;
+    }
+
+    #gangaAartiPic {
+        max-width: 35%;
+        float: left;
+        margin-right: 30px;
+        border-radius: 100%;
+    }
+
+    #pushpanjaliPic {
+        max-width: 35%;
+        border-radius: 100%;
+        float: right;
+        margin-left: 30px;
+    }
+
+    #teerthGuidePic {
+        max-width: 35%;
+        float: left;
+        margin-right: 30px;
+        border-radius: 100%;
+    }
+
+    #kalpvaasPic {
+        max-width: 32%;
+        border-radius: 100%;
+        float: right;
+        margin-left: 30px;
+    }
+
+    #transportPic {
+        max-width: 32%;
+        float: left;
+        margin-right: 30px;
+        border-radius: 100%;
+    }
+
+    .last-service-row {
+        padding-bottom: 2rem;
+    }
+
+
+    .testimonial-image {
+        width: 30%;
+        border-radius: 100%;
+    }
+
+    .testimonial-text {
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    em {
+        font-size: x-small;
+    }
+
+    .owner-details h1 {
+        padding-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .owner-details h4 {
+        padding-top: 1rem;
+        font-size: large;
+    }
+
+    .owner-details p {
+        padding-top: 3rem;
+        text-align: right;
+        font-size: small;
+    }
+
+    .col h6 {
+        padding: 0;
+        font-size: 0.8rem;
+    }
+
+    #Owner {
+        padding: 7%;
+    }
+
+    .googlePic {
+        content: url("https://img.icons8.com/fluency/30/000000/google-logo.png");
+    }
+
+    #whatsapp {
+        content: url("https://img.icons8.com/color/30/000000/whatsapp--v1.png");
+    }
+
+    #instagram {
+        content: url("https://img.icons8.com/fluency/30/000000/instagram-new.png");
+    }
+
+    #mail {
+        content: url("https://img.icons8.com/color/25/000000/gmail--v1.png");
+    }
+
+    #maps {
+        content: url("https://img.icons8.com/color/30/000000/google-maps-new.png");
+    }
+}
