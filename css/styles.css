@@ -245,11 +245,13 @@ h3 {
 }
 
 .owner-pic img {
-    width: 100%;
+    width: 50%;
+    border-radius: 21%;
+    border-color: #fff;
 }
 
 .owner-details h4 {
-    color: wheat;
+    color: goldenrod;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
 }
@@ -429,7 +431,11 @@ h6 a:hover {
     em {
         font-size: x-small;
     }
-
+    .owner-pic img {
+        width: 40%;
+        border-radius: 30%;
+        border-color: #fff;
+    }
     .owner-details h1 {
         padding-top: 2rem;
         font-size: 2rem;
